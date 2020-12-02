@@ -9,8 +9,12 @@ namespace Aula_02_12_2020
         public string rg;
         public int idade;
         public bool bolsista;
-        public float médiaFinal;
+        public float mediaFinal;
         public float valorMensalidade;
         
+        public float VerMediaFinal();
+        {
+            
+        }
     }
 }

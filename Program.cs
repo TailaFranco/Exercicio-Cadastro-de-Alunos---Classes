@@ -7,8 +7,8 @@ namespace Aula_02_12_2020
         static void Main(string[] args)
         {   
            Console.WriteLine("Sistema de Cadastro de Alunos");
-            Aluno objetoAluno = new Aluno();
-        
+            Aluno aluno1 = new Aluno();
+            
         }
     }
 }
