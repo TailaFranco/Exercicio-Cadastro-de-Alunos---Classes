@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Aula_02_12_2020
 {
     class Program
@@ -37,7 +38,7 @@ namespace Aula_02_12_2020
             {
                  aluno1.bolsista = false;
             }
-
+            
             // Menu
             int opcao = 0;
             do
@@ -54,7 +55,7 @@ namespace Aula_02_12_2020
                     Console.WriteLine($"A média final do aluno é: {aluno1.mediaFinal}");
                     break;
                 case 2:
-                Console.WriteLine($"A Mensalidade aluno é: {aluno1.valorMensalidade}");
+                Console.WriteLine($"A Mensalidade aluno é: {aluno1.VerMensalidade(aluno1.bolsista, aluno1.mediaFinal)}");
                 break;
                 case 0:
                 Console.WriteLine("Obrigado por acessar");

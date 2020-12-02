@@ -12,19 +12,20 @@ namespace Aula_02_12_2020
         public float mediaFinal;
         public float valorMensalidade;
         
-        public int VerMediaAluno();
+        public float VerMediaAluno()
         {
             return this.mediaFinal;
         }
-        public float valorMensalidade(bool bolsista && mediaFinal >=8)
+        float valor;
+        public float VerMensalidade(bool bolsista, float mediaFinal)
         {
-            if(bolsista)
+            if(this.bolsista && this.mediaFinal >=8)
             {
-                float valor = (valorMensalidade * 0.5f);
+                valor = this.valorMensalidade * 0.5f;
             }
             else
             {
-                float valor = valorMensalidade;
+                valor = this.valorMensalidade;
             }
             return valor;
         }
